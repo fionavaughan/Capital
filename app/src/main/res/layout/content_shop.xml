@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ted.capital.Shop"
+    tools:showIn="@layout/activity_shop"
+    android:background="#63abd2"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Home"
+        android:layout_marginLeft="264dp"
+        android:textColor="#C12283"
+        android:id="@+id/homebutton"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:src="@drawable/capital2"
+        android:paddingLeft="50dp"
+        android:paddingBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grafton"
+        android:id="@+id/grafton"
+        android:layout_below="@id/header"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="22dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOPPING IN DUBLIN"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:paddingBottom="20dp"
+        android:id="@+id/heading"
+        android:layout_below="@id/header"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grafton"
+        android:text="Grafton Street"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/one"
+        android:paddingTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/one"
+        android:text="graftonstreet.ie"
+        android:textStyle="italic"
+        android:id="@+id/web1"
+        android:paddingBottom="13dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web1"
+        android:text="Location:   Grafton Street, Dublin."
+        android:paddingBottom="8dp"
+        android:id="@+id/location1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location1"
+        android:text="Hours:        Opening hours for shops depend on the
+                    terms of each shop."
+        android:paddingBottom="8dp"
+        android:id="@+id/time1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time1"
+        android:text="Shops:      Clothing, Departmental, Jewelers and
+                   others can be found.
+"
+        android:paddingBottom="40dp"
+        android:id="@+id/price1"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jervis"
+        android:id="@+id/jervis"
+        android:layout_below="@id/price1"
+        android:paddingTop="20dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jervis"
+        android:text="Jervis Street Shopping Centre"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/two"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/two"
+        android:text="jervis.ie"
+        android:textStyle="italic"
+        android:id="@+id/web2"
+        android:paddingBottom="13dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web2"
+        android:text="Location:   	125 Upper Abbey Street, Dublin 1."
+        android:paddingBottom="8dp"
+        android:id="@+id/location2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location2"
+        android:text="Hours: 		Monday – Wednesday
+		9:00am – 6:30pm
+
+		Thursday
+		9:00am – 9:00pm
+
+		Friday and Saturday
+		9:00am – 7:00pm
+
+		Sunday
+		11:00am – 6:30pm"
+        android:paddingBottom="8dp"
+        android:id="@+id/time2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time2"
+        android:text="Shops: Accessories, Childcare, Sports, Fashion, Supermarket and many more."
+        android:paddingBottom="40dp"
+        android:id="@+id/price2"
+        />
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dundrum"
+        android:id="@+id/dundrum"
+        android:layout_below="@id/price2"
+        android:paddingTop="20dp"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price2"
+        android:text="Dundrum Shopping Centre"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/three"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three"
+        android:text="dundrum.ie"
+        android:textStyle="italic"
+        android:id="@+id/web3"
+        android:paddingBottom="13dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web3"
+        android:text="Location: 	Sandyford Road, Dublin 16."
+        android:paddingBottom="8dp"
+        android:id="@+id/location3"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location3"
+        android:text="Hours: 		Monday – Friday
+		9:00am – 9:00pm
+
+		Saturday
+		9:00am – 7:00pm
+
+		Sunday
+		10:00am – 7:00pm
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/time3"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time3"
+        android:text="Shops: 		Fashion stores, Health and Medical stores as well as food and
+entertainment on site."
+        android:paddingBottom="8dp"
+        android:id="@+id/price3"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blanch"
+        android:id="@+id/blanch"
+        android:layout_below="@id/price3"
+        android:paddingTop="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blanch"
+        android:text="Blanchards Town Shopping Centre"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/four"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:text="blanchardstowncentre.ie"
+        android:textStyle="italic"
+        android:id="@+id/web4"
+        android:paddingBottom="13dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web4"
+        android:text="Location: 	Blanchardstown, Dublin 15."
+        android:paddingBottom="8dp"
+        android:id="@+id/location4"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location4"
+        android:text="Hours: 		Monday – Friday
+		9:00am – 9:00pm
+
+		Saturday
+		9:00am – 7:00pm
+
+		Sunday
+		11:00am – 6:00pm"
+        android:paddingBottom="8dp"
+        android:id="@+id/time4"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time4"
+        android:text="Shops: 		Fashion stores, Health and Medical stores as well as food and
+entertainment on site."
+        android:paddingBottom="8dp"
+        android:id="@+id/price4"
+        />
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/liffey"
+        android:id="@+id/liffey"
+        android:layout_below="@id/price4"
+        android:paddingTop="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liffey"
+        android:text="Liffey Valley"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/five"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/five"
+        android:text="liffeyvalley.ie"
+        android:textStyle="italic"
+        android:id="@+id/web5"
+        android:paddingBottom="13dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web5"
+        android:text="Location: 	Fonthill Road, Dublin 22."
+        android:paddingBottom="8dp"
+        android:id="@+id/location5"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location5"
+        android:text="Hours:		Monday and Tuesday
+		9:30am – 7:00pm
+
+		Wednesday – Friday
+		9:30am – 9:00pm
+
+		Saturday
+		9:30am – 7:00pm
+
+		Sunday
+		11:00am – 7:00pm
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/time5"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time5"
+        android:text="Stores:		Fashion stores, Health and Medical stores as well as food and
+entertainment on site."
+        android:paddingBottom="8dp"
+        android:id="@+id/price5"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

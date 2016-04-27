@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ted.capital.tours"
+    tools:showIn="@layout/activity_tours"
+    android:background="#63abd2"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Home"
+        android:layout_marginLeft="264dp"
+        android:textColor="#C12283"
+        android:id="@+id/homebutton"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:src="@drawable/capital2"
+        android:paddingLeft="50dp"
+        android:paddingBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/viking"
+        android:id="@+id/viking"
+        android:layout_below="@id/header"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="22dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:text="DAY TOURS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/heading"
+        android:paddingLeft="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viking"
+        android:text="Viking Splash Tours"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/one"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/one"
+        android:text="vikingsplash.com"
+        android:textStyle="italic"
+        android:id="@+id/web1"
+        android:paddingBottom="13dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web1"
+        android:text="Location:   St Stephens Green North, Dublin 2"
+        android:paddingBottom="8dp"
+        android:id="@+id/location1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location1"
+        android:text="Hours:		    Monday – Friday
+		                9:00am – 4:00pm
+
+		                Saturday and Sunday
+		                10:00am – 3:00pm"
+        android:paddingBottom="8dp"
+        android:id="@+id/time1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time1"
+        android:text="Prices:	    	Adult: €22
+		                Student/Senior: €20
+		                Teenager: €17
+		                Child: €12
+		                Family (2 adults, 3 children): €70"
+        android:paddingBottom="40dp"
+        android:id="@+id/price1"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rebellion"
+        android:id="@+id/rebellion"
+        android:layout_below="@id/price1"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="22dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rebellion"
+        android:text="1916 Rebellion Walking Tours"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/two"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/two"
+        android:text="1916rising.com"
+        android:textStyle="italic"
+        android:id="@+id/web2"
+        android:paddingBottom="13dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web2"
+        android:text="Location:	International Bar, 23 Wicklow St, Dublin 2"
+        android:paddingBottom="8dp"
+        android:id="@+id/location2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location2"
+        android:text="Hours:		Monday – Saturday
+		11:30am
+
+		Sunday
+		1:00pm"
+        android:paddingBottom="8dp"
+        android:id="@+id/time2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time2"
+        android:text="Prices:		Adults: €13
+		Child (aged 8 – 16): €9
+		Child (under 8): Free"
+        android:paddingBottom="40dp"
+        android:id="@+id/price2"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/river"
+        android:id="@+id/river"
+        android:layout_below="@id/price2"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="22dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/river"
+        android:text="Liffey River Cruises"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/three"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three"
+        android:text="dublindiscovered.ie"
+        android:textStyle="italic"
+        android:id="@+id/web3"
+        android:paddingBottom="13dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web3"
+        android:text="Location:	Bachelors Walk, Dublin 1."
+        android:paddingBottom="8dp"
+        android:id="@+id/location3"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location3"
+        android:text="Hours: Tours being at 11:30am daily."
+        android:paddingBottom="8dp"
+        android:id="@+id/time3"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time3"
+        android:text="Prices:		Adult: €14
+		Senior/Student: €12
+		Child (aged 13 – 17): €10
+		Child (aged 4 – 12): €8
+		Family: €30
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/price3"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/game"
+        android:id="@+id/game"
+        android:layout_below="@id/price3"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="22dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price3"
+        android:text="Game Of Thrones Tour"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/four"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:text="gameofthronestours.com"
+        android:textStyle="italic"
+        android:id="@+id/web4"
+        android:paddingBottom="13dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web4"
+        android:text="Location:	Unit, 5016, 1 Sir John Rogerson's Quay, Dublin 2"
+        android:paddingBottom="8dp"
+        android:id="@+id/location4"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location4"
+        android:text="Hours:		Monday – Sunday
+		9:00am – 6:00pm"
+        android:paddingBottom="8dp"
+        android:id="@+id/time4"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time4"
+        android:text="Prices:		€50 - €55"
+        android:paddingBottom="8dp"
+        android:id="@+id/price4"
+        />
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ted.capital.Main2Activity"
+    android:background="#63abd2"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Home"
+        android:layout_marginLeft="264dp"
+        android:textColor="#C12283"
+        android:id="@+id/homebutton"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:src="@drawable/capital2"
+        android:paddingLeft="50dp"
+        android:paddingBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shelbounre"
+        android:id="@+id/shelbourne"
+        android:layout_below="@id/header"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="22dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:text="ACCOMMODATION"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/heading"
+        android:paddingLeft="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shelbourne"
+        android:text="The Shelbourne"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/one"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/one"
+        android:text="marriott.ie"
+        android:textStyle="italic"
+        android:id="@+id/web1"
+        android:paddingBottom="13dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web1"
+        android:text="Location:	        27 St Stephens Green, Dublin."
+        android:paddingBottom="8dp"
+        android:id="@+id/location1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location1"
+        android:text="Amenities:    	5* Star hotel with luxurious spa
+                          treatments, fine dining and the best
+		                    hotel service."
+        android:paddingBottom="8dp"
+        android:id="@+id/time1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time1"
+        android:text="Call:		             (01) 663 4500"
+        android:paddingBottom="40dp"
+        android:id="@+id/price1"
+        />
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clayton"
+        android:id="@+id/clayton"
+        android:layout_below="@id/price1"
+        android:paddingTop="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clayton"
+        android:text="Clayton Hotel Ballsbridge"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/two"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/two"
+        android:text="claytonhotelballsbridge.com"
+        android:textStyle="italic"
+        android:id="@+id/web2"
+        android:paddingBottom="13dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web2"
+        android:text="Location:	Merrion Road, Dublin 4."
+        android:paddingBottom="8dp"
+        android:id="@+id/location2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location2"
+        android:text="Amenities:	Functional rooms and suites, plus a banquet hall and a chic brasserie
+in a former Masonic school.
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/time2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time2"
+        android:text="Call: 		(01) 668 1111	"
+        android:paddingBottom="40dp"
+        android:id="@+id/price2"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maldron"
+        android:id="@+id/maldron"
+        android:layout_below="@id/price2"
+        android:paddingTop="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maldron"
+        android:text="Maldron Hotel"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/three"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three"
+        android:text="maldronhotels.com"
+        android:textStyle="italic"
+        android:id="@+id/web3"
+        android:paddingBottom="13dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web3"
+        android:text="Location:	Parnell Square West, Dublin 1."
+        android:paddingBottom="8dp"
+        android:id="@+id/location3"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location3"
+        android:text="Amenities:	There's a casual restaurant and a bistro serving lunchtime carvery.
+The leisure centre offers a gym, 2 pools (including a kiddie pool), an aerobics studio, a hot tub, a sauna and a steam room. There are 9 rooms dedicated to meetings and events.
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/time3"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time3"
+        android:text="Call:		(01) 871 6800"
+        android:paddingBottom="8dp"
+        android:id="@+id/price3"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gibson"
+        android:id="@+id/gibson"
+        android:layout_below="@id/price3"
+        android:paddingTop="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gibson"
+        android:text="The Gibson"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/four"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:text="thegibsonhotel.ie"
+        android:textStyle="italic"
+        android:id="@+id/web4"
+        android:paddingBottom="13dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web4"
+        android:text="Location:	Point Village, Dublin 1."
+        android:paddingBottom="8dp"
+        android:id="@+id/location4"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location4"
+        android:text="Amenities:	A chic restaurant and bar offers pan-Asian cuisine and a sleek outdoor
+terrace lined with bamboo. Other amenities include a gym, meeting spaces, and a relaxation area with outdoor baths.
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/time4"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time4"
+        android:text="Call:		(01) 681 5000"
+        android:paddingBottom="8dp"
+        android:id="@+id/price4"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/crokehotel"
+        android:id="@+id/crokehotel"
+        android:layout_below="@id/price4"
+        android:paddingTop="20dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/crokehotel"
+        android:text="The Croke Park Hotel"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/five"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/five"
+        android:text="doylecollection.com"
+        android:textStyle="italic"
+        android:id="@+id/web5"
+        android:paddingBottom="13dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web5"
+        android:text="Location:	The Croke Park Hotel Dublin, Jones' Rd, Dublin 3"
+        android:paddingBottom="8dp"
+        android:id="@+id/location5"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location5"
+        android:text="Amenities:	With fitness and business centres, there's free parking, electric car
+charging and a city shuttle. A classy bistro and bar features a heated outdoor terrace.
+"
+        android:paddingBottom="8dp"
+        android:id="@+id/time5"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time5"
+        android:text="Call:		(01) 871 4444"
+        android:paddingBottom="8dp"
+        android:id="@+id/price5"
+        />
+
+
+</RelativeLayout>

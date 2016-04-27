@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ted.capital.Family"
+    tools:showIn="@layout/activity_family"
+    android:background="#63abd2"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Home"
+        android:layout_marginLeft="264dp"
+        android:textColor="#C12283"
+        android:id="@+id/homebutton"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:src="@drawable/capital2"
+        android:paddingLeft="52dp"
+        android:paddingBottom="20dp"
+        />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/zoo"
+    android:id="@+id/zoo"
+    android:layout_below="@id/header"
+    android:paddingTop="20dp"
+    />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAMILY AND LEISURE"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingLeft="50dp"
+            android:paddingBottom="20dp"
+            android:id="@+id/heading"
+            android:layout_below="@id/header"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zoo"
+            android:text="Dublin Zoo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/one"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/one"
+            android:text="dublinzoo.ie"
+            android:textStyle="italic"
+            android:id="@+id/web1"
+            android:paddingBottom="13dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web1"
+            android:text="Location  Phoenix Park, Dublin 8."
+            android:paddingBottom="8dp"
+            android:id="@+id/location1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location1"
+            android:text="Hours:		January:
+                 Monday – Sunday 9:30am – 4:30pm.
+
+                 February:
+                 Monday – Sunday 9:30am – 5:00pm.
+
+                 March to September:
+                 Monday to Sunday 9:30am – 6:00pm.
+
+                 October:
+                 Monday to Sunday 9:30am – 5:30pm.
+
+                 November:
+                 Monday to Sunday 9:30am – 4:00pm.
+
+                 December:
+                 Monday to Sunday 9:30am – 4:00pm.
+"
+            android:paddingBottom="8dp"
+            android:id="@+id/time1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time1"
+            android:text="Prices:		Adult: €17
+		           Children (aged 3 – 16): €12.20
+		           Children (under 3): Free
+		           Seniors: €13.20
+		           Student: €13.20
+"
+            android:paddingBottom="40dp"
+            android:id="@+id/price1"
+            />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/croker"
+        android:id="@+id/croke"
+        android:layout_below="@id/price1"
+        android:paddingTop="20dp"
+        />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/croke"
+            android:text="Croke Park Tour"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/two"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/two"
+            android:text="crokepark.ie"
+            android:textStyle="italic"
+            android:id="@+id/web2"
+            android:paddingBottom="13dp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web2"
+            android:text="Location:	Croke Park, Dublin 3."
+            android:paddingBottom="8dp"
+            android:id="@+id/location2"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location2"
+            android:text="Hours:		January to May, September to December:
+Monday to Saturday 09:30am – 5:00pm.
+Sunday 10:30am – 5:00pm.
+
+June to August:
+Monday to Saturday 09:30am – 6:00pm.
+Sunday 10:30am-5:00pm.
+"
+            android:paddingBottom="8dp"
+            android:id="@+id/time2"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time2"
+            android:text="Prices:		Stadium Tours
+Adults: €13
+		Students/Seniors: €10
+		Children (aged 3 – 12): €8.50
+		Children (under 3): Free
+		Family (2 adults, 2 children): €35
+
+		GAA Museum
+Adults: €6.50
+		Students/Seniors: €5.50
+		Children (aged 3 – 12): €4.50
+		Children (under 3): Free
+		Family (2 adults, 2 children): €17
+"
+            android:paddingBottom="40dp"
+            android:id="@+id/price2"
+            />
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aviva"
+        android:id="@+id/aviva"
+        android:layout_below="@id/price2"
+        android:paddingTop="20dp"
+        />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aviva"
+            android:text="Aviva Stadium Tour"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/three"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/three"
+            android:text="avivastadium.ie"
+            android:textStyle="italic"
+            android:id="@+id/web3"
+            android:paddingBottom="13dp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web3"
+            android:text="Location: 	Aviva Stadium, Lansdowne Road, Ballsbridge, Dublin 4."
+            android:paddingBottom="8dp"
+            android:id="@+id/location3"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location3"
+            android:text="Hours: Tours on the hour starting from 10:00am daily."
+            android:paddingBottom="8dp"
+            android:id="@+id/time3"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time3"
+            android:text="Prices: 	Contact then by phoning (01) 232 0878 to arrange pirces for tours."
+            android:paddingBottom="8dp"
+            android:id="@+id/price3"
+            />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zip"
+        android:id="@+id/zip"
+        android:layout_below="@id/price3"
+        android:paddingTop="20dp"
+        />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zip"
+            android:text="Zip-It Forests"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/four"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/four"
+            android:text="zipit.ie"
+            android:textStyle="italic"
+            android:id="@+id/web4"
+            android:paddingBottom="13dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web4"
+            android:text="Location:	Tibradden Wood, Dublin."
+            android:paddingBottom="8dp"
+            android:id="@+id/location4"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location4"
+            android:text="Hours:		January and December:
+		Course Closed
+
+		February, March, April, May, October and November:
+		Monday to Friday: Open for Group Bookings
+		Saturday and Sunday: 10:00am – 5:00pm (10:00am – 7:00pm in May)
+
+		June, July and August:
+		Monday to Sunday: 10:00am – Late.
+"
+            android:paddingBottom="8dp"
+            android:id="@+id/time4"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time4"
+            android:text="Prices:		Aged 7 – 8: €15
+		Aged 9 – 11: €22
+		Aged 12 – 14: €24
+		Aged 15+ : €29"
+            android:paddingBottom="8dp"
+            android:id="@+id/price4"
+            />
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guinness"
+        android:id="@+id/guinness"
+        android:layout_below="@id/price4"
+        android:paddingTop="20dp"
+        />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/guinness"
+            android:text="Guinness Storehouse"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/five"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/five"
+            android:text="guinness-storehouse.com"
+            android:textStyle="italic"
+            android:id="@+id/web5"
+            android:paddingBottom="13dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web5"
+            android:text="Location:	St James’s Gate, Dublin 8."
+            android:paddingBottom="8dp"
+            android:id="@+id/location5"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location5"
+            android:text="Hours:		Monday to Sunday 9:30am – 7:00pm"
+            android:paddingBottom="8dp"
+            android:id="@+id/time5"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time5"
+            android:text="Prices:		Adults: €20
+		Students: €18
+		Family (2 adults, 4 children under 18): €48.50
+		Senior: €18
+		Children (aged 11-17): €13.50
+Children (under 10): Free"
+            android:paddingBottom="8dp"
+            android:id="@+id/price5"
+            />
+
+
+
+
+</RelativeLayout>

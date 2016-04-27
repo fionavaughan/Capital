@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Capital</string>
+    <string name="action_settings">Settings</string>
+    <string name="family">Family and Leisure</string>
+    <string name="historic">Historic</string>
+    <string name="eat">Eat and Drink</string>
+    <string name="nightlife">Nightlife in Dublin</string>
+    <string name="shops">Shopping in Dublin</string>
+    <string name="bed">Accommodation</string>
+    <string name="tours">Day Tours</string>
+    <string name="Home">Home</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_family">Family</string>
+    <string name="title_activity_accommodation">accommodation</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="title_activity_nightlife">nightlife</string>
+    <string name="title_activity_tours">tours</string>
+    <string name="title_activity_food">food</string>
+</resources>
